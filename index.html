@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>CCレモン</title>
+</head>
+<body>
+  <div id="startDisplay" class="display active">
+    <h1>CCレモン</h1>
+    <p class="lemon">🍋</p>
+    <button id="startBtn">スタート</button>
+  </div>
+
+  <div id="gameDisplay" class="display">
+    <div>あいて</div>
+    <div  id="enemy-hand"></div>
+    <div id="judge"></div>
+    <div id="my-hand"></div>
+    <div>じぶん</div>
+    <div class="buttons">
+      <button disabled>ためる</button>
+      <button disabled>発射</button>
+      <button disabled>バリア</button>
+    </div>
+    <div class="right">ため回数:<span id="count">0</span></div>
+  </div>
+</body>
+</html>
