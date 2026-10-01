@@ -8,24 +8,26 @@
   <title>CCレモン</title>
 </head>
 <body>
-  <div id="startDisplay" class="display active">
+  <!-- スタート画面 -->
+  <section id="startDisplay" class="display active">
     <h1>CCレモン</h1>
     <p class="lemon">🍋</p>
     <button id="startBtn">スタート</button>
-  </div>
+  </section>
 
-  <div id="gameDisplay" class="display">
+  <!-- ゲーム画面 -->
+  <section id="gameDisplay" class="display">
     <div>あいて</div>
     <div  id="enemy-hand"></div>
     <div id="judge"></div>
     <div id="my-hand"></div>
     <div>じぶん</div>
     <div class="buttons">
-      <button disabled>ためる</button>
+      <button id="chargeBtn" disabled>ためる</button>
       <button disabled>発射</button>
       <button disabled>バリア</button>
     </div>
     <div class="right">ため回数:<span id="count">0</span></div>
-  </div>
+  </section>
 </body>
 </html>
